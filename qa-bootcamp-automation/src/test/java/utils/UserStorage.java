@@ -8,7 +8,7 @@ import org.json.JSONObject;
 
 public class UserStorage {
 
-    private static final String FILE_PATH = "test-output/user-data.json";
+    private static final String FILE_PATH = "test-output/user-data/user-data.json";
 
     public static void saveEmail(String email) {
         try {
